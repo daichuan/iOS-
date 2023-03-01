@@ -46,8 +46,8 @@ class AutoreleasePoolPage {
 为节点用**双向链表**的形式连接起来的。
 每个`AutoreleasePoolPage`对象有`4096`字节的存储空间, 除了存放它自己的成员变量（56 个字节，每个占 8 个字节）外, 剩下的空间用来存储后面加入的`autorelease`对象。
 
-![](autoreleasepool/6311050e74084023854d562afe4ff775~tplv-k3u1fbpfcp-zoom-in-crop-mark-3024-0-0-0.image.png)
 
+![6311050e74084023854d562afe4ff775~tplv-k3u1fbpfcp-zoom-in-crop-mark-3024-0-0-0.image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/542c561f4f6d48638d38a98ebaf0b395~tplv-k3u1fbpfcp-watermark.image?)
 ### 大致流程
 
 * 当进入`@autoreleasepool`作用域时，`objc_autoreleasePoolPush`方法被调用，runtime会向当前的`AutoreleasePoolPage`中添加一个nil对象作为哨兵对象，并返回该哨兵对象的地址；

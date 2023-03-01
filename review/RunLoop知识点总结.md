@@ -40,4 +40,8 @@
 
 ### RunLoop处理逻辑流程图
 
-![](RunLoop%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/1434508-d448ec1fc5171e09.png)
+
+![1434508-d448ec1fc5171e09.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fcbdbaf7aa4c45daaaa15900aa1795a7~tplv-k3u1fbpfcp-watermark.image?)
+
+
+runloop详解链接：[iOS底层原理总结 - RunLoop - 简书](https://www.jianshu.com/p/de752066d0ad)
