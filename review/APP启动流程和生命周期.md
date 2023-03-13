@@ -167,5 +167,3 @@
 }
 ```
 
-
-[iOS-APP的启动流程和生命周期 - 简书](https://www.jianshu.com/p/229dd6190b95)
